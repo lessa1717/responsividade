@@ -325,38 +325,38 @@ footer {
     color: var(--background-color);
 }
 
-@media screen  and ( max-width:1200px ){ 
-    .logomarca{
+@media screen and (max-width:1200px) {
+    .logomarca {
         width: 120px;
         height: 25px;
     }
 
 
 
-    .painel-principal{
+    .painel-principal {
         padding: 00px;
         flex-direction: column-reverse;
 
     }
 
 
-    .titulo_painel{
-        font-size:28px ;
+    .titulo_painel {
+        font-size: 28px;
         padding: 0;
-        
+
 
         line-height: 33px;
-        
+
     }
-    .anuncio-petz{
+
+    .anuncio-petz {
         align-items: center;
         height: 450px;
         justify-content: space-evenly;
     }
 
-    .descricao
-    {
-        font-size:16px ;
+    .descricao {
+        font-size: 16px;
         padding: 0;
         line-height: 25px;
         width: 120%;
@@ -365,46 +365,161 @@ footer {
     }
 
 
-    .imagens-petz{
-        margin-top: 10px;
-        height: 200px;
+    .imagens-petz {
+        margin-top: 50px;
+        height: 300px;
         width: 500px;
-       justify-content: center;
-       
-        
+        justify-content: center;
+
+
     }
-    
+
     .botao_principal {
-       
-        width: 180px; 
-        height: 55px ;
+
+        width: 180px;
+        height: 55px;
         font-size: 15px;
         /* text-align: center; */
         margin-bottom: 50px;
         justify-content: center;
-     
+
 
     }
-    .sobre
-    {
+
+    .titulo_perfil {
+        font-size: 25px;
+    }
+
+    .sobre {
         flex-direction: column;
 
     }
 
-    .sobre-valores{
+    .sobre-valores {
         width: 100%;
         text-align: center;
     }
-   .titulo_valores{
-    text-align: center;
-   }
+
+    .titulo_valores {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .descricao_valores {
+        font-size: 15px;
+    }
 
 
-
-.rodape{
-     flex-direction: column;
-        align-items: center;
-        gap: 50px;
 }
 
+@media screen and (max-width : 768px) {
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-perfil {
+        flex-direction: row;
+        width: 500px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    .tipos-perfil {
+        font-size: 10px;
+    }
+
+    .descricao_card {
+        font-size: 18px;
+    }
+
+    .geral_card {
+        font-size: 18px;
+    }
+
+    .card-perfil a {
+        font-size: 18px;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+
+
+
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        height: 150px;
+        gap: 15px;
+    }
+
+    .redes-sociais p {
+        display: none;
+
+    }
+
+    .redes-sociais {
+        margin-bottom: 13px;
+    }
+
+    
+
+}
+@media screen and (max-width: 768px) {
+    .menu_barras {
+        display: initial;
+    }
+
+    .menu_barras svg {
+        height: 50px;
+        fill: var(--branco);
+    }
+
+    .cabecalho {
+        position: relative;
+    }
+
+    .cabecalho nav {
+        text-align: center;
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #f0eeecde;
+        flex-direction: column;
+        z-index: 1;
+        padding: 50px 30px;
+        /* backdrop-filter: blur(3px); */
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+
+
+
+
+    header nav a a {
+        margin-left: 10px 0;
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (min-width : 768px) {
+    .links-navegacao{
+        display: flex;
+    }
 }
