@@ -126,9 +126,9 @@ html {
 .parte-fotos-02 img {
     width: 25vw;
     border-radius: 10px;
-}
+} 
 
-/* SECTION 2 */
+/*SECTION 2*/
 
 .tipos-perfil {
     background-color: #ff880026;
@@ -207,7 +207,7 @@ html {
 }
 
 
-/* SECTION 3 */
+/* SECTION 3*/
 
 
 .sobre {
@@ -329,6 +329,7 @@ footer {
     .logomarca {
         width: 120px;
         height: 25px;
+        margin-left: 30px;
     }
 
 
@@ -351,8 +352,10 @@ footer {
 
     .anuncio-petz {
         align-items: center;
-        height: 450px;
+        height: 500px;
         justify-content: space-evenly;
+        margin-top: 10px;
+        padding-top: 170px;
     }
 
     .descricao {
@@ -367,7 +370,7 @@ footer {
 
     .imagens-petz {
         margin-top: 50px;
-        height: 300px;
+        height: 100px;
         width: 500px;
         justify-content: center;
 
@@ -412,71 +415,8 @@ footer {
 
 }
 
-@media screen and (max-width : 768px) {
-
-    .cards-container {
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .card-perfil {
-        flex-direction: row;
-        width: 500px;
-        height: 200px;
-        margin-bottom: 50px;
-    }
 
 
-
-
-    .tipos-perfil {
-        font-size: 10px;
-    }
-
-    .descricao_card {
-        font-size: 18px;
-    }
-
-    .geral_card {
-        font-size: 18px;
-    }
-
-    .card-perfil a {
-        font-size: 18px;
-    }
-
-    .conteudo-footer {
-        flex-direction: column;
-        gap: 10px;
-
-    }
-
-
-
-
-
-    .rodape {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        gap: 50px;
-        height: 150px;
-        gap: 15px;
-    }
-
-    .redes-sociais p {
-        display: none;
-
-    }
-
-    .redes-sociais {
-        margin-bottom: 13px;
-    }
-
-    
-
-}
 @media screen and (max-width: 768px) {
     .menu_barras {
         display: initial;
@@ -507,7 +447,9 @@ footer {
     }
 
 
-
+    .links-navegacao a{
+        font-size: 15px ;
+    }
 
 
     header nav a a {
@@ -516,10 +458,166 @@ footer {
     }
 
 
+    .anuncio-petz {
+        height: 380px;
+        gap:18px;
+       
+      
+
+    }
+
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-perfil {
+        flex-direction: row;
+        width: 450px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    .tipos-perfil {
+        font-size: 10px;
+    }
+
+    .descricao_card {
+        font-size: 18px;
+    }
+
+    .geral_card {
+        font-size: 18px;
+    }
+
+    .card-perfil a {
+        font-size: 18px;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+        .links-navegacao{
+            display: initial;
+        }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        height: 150px;
+        gap: 15px;
+    }
+
+    .redes-sociais p {
+        display: none;
+
+    }
+
+    .redes-sociais {
+        margin-bottom: 13px;
+    }
+
+
+
 }
 
-@media screen and (min-width : 768px) {
-    .links-navegacao{
+
+
+@media screen  and (max-width: 570px){
+
+
+
+    .anuncio-petz{
         display: flex;
+        height: 380;
     }
+
+    .card-perfil{
+        display: flex;
+        width: 350px;
+       
+    }
+
 }
+
+
+
+@media screen and (max-width: 360px){
+
+
+            .anuncio-petz{
+                padding-bottom: 100px;
+                gap: 15px;
+            }
+
+
+
+            .titulo_painel{
+                font-size: 22px;
+            }
+
+
+
+
+            .titulo_valores{
+                font-size: 20px;
+                line-height: 30px;
+                width: 300px;
+                margin-left: -40px;
+                text-align: center;
+            }
+
+            .titulo_perfil{
+                font-size: 20px;
+                line-height: 35px;
+                width: 300px;
+                margin-left: 0px;
+
+            }
+
+            .descricao_valores{
+                display: none;
+            }
+
+            .valores-topicos{
+                flex-direction: column;
+                align-items: center;
+                
+                
+            }
+
+           .valores-topicos .descricao{
+                font-size: 17px;
+            }
+            
+
+            .imagens-petz{
+                display: none;
+            }
+            
+            .card-perfil{
+                display: flex;
+                width: 270px;
+               
+            }
+
+            .descricao_card{
+                font-size: 15px;
+            }
+
+            .geral_card a{
+                font-size: 15px;
+            }
+
+           
+
+        }

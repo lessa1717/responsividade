@@ -3,6 +3,7 @@ let menu_barras = document.getElementById("menu_barras");
 
 
 
+
 function mostrarMenu() {
     if (window.getComputedStyle(menu).display == "none") {
         menu.style.display = "flex"
