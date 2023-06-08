@@ -532,7 +532,7 @@ footer {
 
 
 
-@media screen  and (max-width: 570px){
+@media screen  and (max-width: 580px){
 
 
 
@@ -551,7 +551,7 @@ footer {
 
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
 
 
             .anuncio-petz{
@@ -604,6 +604,14 @@ footer {
                 display: none;
             }
             
+            .botao_principal{
+                font-size: 10px;
+                height: 15px;
+                width: 150px;
+                margin-top: 10px;
+            }
+
+
             .card-perfil{
                 display: flex;
                 width: 270px;
